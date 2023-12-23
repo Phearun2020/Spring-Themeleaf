@@ -25,4 +25,9 @@ public class HelloThymeleaf {
    public String task02() {
        return "html-css-js";
    }
+
+   @GetMapping("/bootstrap")
+   public String task03() {
+       return "add-bootstrap";
+   }
 }
